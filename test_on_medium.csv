@@ -1,0 +1,13 @@
+,text,prediciton
+0,This NER work is just a small part of the work we are doing at the UN Emerging Technology Lab (ETL) to accelerate the UNs mission.,0
+1,A one time offline processing creates a mapping from the sets of context independent signatures harvested from BERTs vocabulary to a single descriptor/label.,0
+2,"BERTs cased vocabulary is a mixture of common nouns, proper nouns, subwords and symbols. The resulting set of 21,418 terms a mixture of common nouns and proper nouns serve as descriptors characterizing an entity type.",1
+3,A tokenizer is responsible for preparing the text inputs as inputs to the transformer model,1
+4,NERDA is open-sourced and available on the Python Package Index (PyPI). It can be installed with:,0
+5,We will use the English CoNLL-2003 data set with NER annotations for training and validation of our model.,0
+6,"Recurrent Neural Networks (RNN) are designed to work with sequential data. Sequential data(can be time-series) can be in form of text, audio, video etc.",1
+7,RNN uses the previous information in the sequence to produce the current output. To understand this better Im taking an example sentence.,0
+8,The workflow of GRU is same as RNN but the difference is in the operations inside the GRU unit. Lets see the architecture of it.,0
+9,"In the LSTM layer, I used 5 neurons and it is the first layer (hidden layer) of the neural network, so the input_shape is the shape of the input which we will pass.",1
+10,A Recurrent Neural Network is a network with a loop. It processes information sequentially and the output from every time step is fed back to the network which acts as a sort of memory.,1
+11,the concatenated vector is passed through a fully connected layer to get a new vector. This vector is passed through the softmax activation.,0
