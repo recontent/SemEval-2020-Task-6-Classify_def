@@ -138,3 +138,4 @@ dmypy.json
 .ipynb_checkpoints/
 task1/__pycache__/
 task1/model/task1-fine-tuned.pth
+task2/model/*
